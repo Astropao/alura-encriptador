@@ -1,0 +1,173 @@
+main{
+  width: 1440px;
+  height: 1024px;
+  background-color: #F3F5FC;
+  font-family: 'Montserrat', sans-serif;
+ 
+}
+
+.area-texto{
+    position: relative;
+    width: 960px;
+    height: 100%;
+    display: inline;
+    float: left;    
+    overflow:auto;
+}
+
+.imagen-logo{
+  position: absolute;
+  top: 40px;
+  left: 84px;
+  width: 31.09px;
+  height: 48px;
+ 
+}
+
+p{ 
+  position: relative;
+  left: 240px;
+  top: 800px;
+  font-size: 16px;
+  display: inline;
+}
+
+
+.texto-input{
+  position: relative;
+  left: 240px;
+  top: 180px;
+  padding: 10px;
+  border: 5px;
+  text-transform: lowercase;
+  background: #F3F5FC;
+  font-size: 32px;
+  color: #0A3871;
+}
+
+
+::placeholder{
+  color: #0A3871;
+  font-size: 30px;
+
+}
+
+.boton-encriptar{
+   font-size: 16px;
+   position: absolute;
+   bottom: 72px;
+   left: 240px;
+   padding: 24px;
+   width: 328px;
+   height: Hug;
+   background-color: #0A3871;
+   color: white;
+   border-radius: 24px;
+   border: none;
+}
+
+.boton-encriptar:hover{
+  transform: scale(1.05);
+}
+
+.boton-desencriptar{
+  position: absolute;
+  bottom: 72px;
+  left: 592px;
+  padding: 24px;
+  width: 328px;
+  height: Hug;
+  background-color: #D8DFE8;
+  color: #0A3871;
+  font-size: 16px;
+  border-radius: 24px;
+  border: none;
+ 
+}
+
+.boton-desencriptar:hover{
+  transform: scale(1.05);
+}
+
+.boton-copiar{
+  position: absolute;
+  bottom: 100px;
+  left: 35px;
+  font-size: 16px;
+  padding: 24px;
+  width: 328px;
+  height: Hug;
+  background-color: #0A3871;
+  color: white;
+  border-radius: 24px;
+  border: none;
+  }
+
+  .boton-copiar:hover{
+    transform: scale(1.05);
+  }
+  
+
+
+.area-texto-final{
+  float: right;
+  position: relative;
+  width: 400px;
+  height: 944px;
+  background: white;
+  margin: 40px;
+  border-radius: 32px;
+  overflow:auto;
+ 
+}
+
+.texto-output{
+
+  position: absolute;
+  font-style: bold;
+  font-size: 30px;
+  text-align: center;
+  left: 14px;
+  right: 1px;
+  top: 550px;
+  border: none;  
+}
+
+#texto-final{
+  position: relative;
+}
+
+.imagen-ninguntexto{
+  position: absolute; 
+  width: 336px;
+  height: 304px;
+  top: 230px;
+  left: 32px;
+ 
+}
+
+h1{
+  position: relative;
+  font-size: 16px;
+  text-align: center;
+  top: 670px;
+}
+
+footer{
+   height: 50px;
+   width: 1440px; 
+   background-color: #0A3871;
+   font-family: 'Montserrat', sans-serif;
+  
+}
+
+h2{
+  position: relative;
+  display: inline;
+  top: 10px;
+  left: 84px;
+  color: #F3F5FC;
+  font-size: 14px;
+
+}
+

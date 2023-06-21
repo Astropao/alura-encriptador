@@ -1,0 +1,44 @@
+<html>
+    <head> 
+         <meta charset ="UTF-8">
+         <title> Encriptador </title>
+         <link rel="stylesheet" href="reset.css">
+         <link rel="stylesheet" href="style-encrypter.css">
+
+         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+   </head>
+
+    <body>
+        <main> 
+            <div class="area-texto">
+                <img src="Imagenes/vector_logo.png" alt="Logo Alura" class="imagen-logo">   
+                <p>Sólo letras minúsculas, sin acentos ni caracteres especiales.</p>
+                <textarea class="texto-input" cols="30" rows="3" placeholder ="Ingrese el texto aquí"></textarea>
+                <button class="boton-encriptar" onclick="encriptar_boton()"> Encriptar </button>
+                <button class="boton-desencriptar" onclick="desencriptar_boton()"> Desencriptar </button>
+
+            </div>
+
+            <div class="area-texto-final">
+                <div id="imagen-muñeco">
+              <img src="Imagenes/Muñeco.png" alt="Ningun texto" id="imagen-ninguntexto2" class="imagen-ninguntexto" alt="ningun texto">
+                 </div>
+
+               <h1> Ingresa el texto que desees encriptar o desencriptar. </h1>
+
+                <button class="boton-copiar" onclick="copiar_boton()"> Copiar </button>
+                <div id="texto-final">
+                <textarea class="texto-output" cols="2" rows="2" placeholder="Ningún mensaje fué encontrado"></textarea>   
+                </div>
+            </div>              
+       </main>       
+       <script src="script.js"></script>
+       <footer>
+          <h2> Creado por Ana Paola Camacho Flores <br>
+            Contacto: pao_fin98@hotmail.com </h2>
+          </footer>
+    </body>
+</html>
+
+
+    
